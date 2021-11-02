@@ -1,5 +1,5 @@
 # game-off-2021
-Game Off 2021 repo
+Game Off 2021
 https://itch.io/jam/game-off-2021
 
 Daily Log
