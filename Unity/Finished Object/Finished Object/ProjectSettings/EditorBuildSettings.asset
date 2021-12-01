@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BeachScene.unity
     guid: 0ed44deacdd0e48dbac02acc317ef5ff
   - enabled: 1
+    path: Assets/Scenes/ChatSceneEnd.unity
+    guid: 6be45d4e9e89548f7a58c2d0a11b7f5a
+  - enabled: 1
     path: Assets/Scenes/ChatScene3.unity
     guid: f766fc9d137a44530954c93f74961552
   m_configObjects: {}
