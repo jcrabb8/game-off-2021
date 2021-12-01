@@ -470,7 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce6e5d695ade45d58b6ea5a9ba9ae9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: BeachScene
+  nextScene: ChatScene3
 --- !u!1 &938711001
 GameObject:
   m_ObjectHideFlags: 0

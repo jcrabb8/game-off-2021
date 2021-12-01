@@ -523,7 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39562989283ca4b88af4836572c0b7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameScene: OnboardingScene
+  newGameScene: DeckScene
 --- !u!1 &869449158
 GameObject:
   m_ObjectHideFlags: 0

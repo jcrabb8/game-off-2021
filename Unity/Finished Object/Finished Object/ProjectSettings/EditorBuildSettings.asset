@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScene.unity
     guid: 692684f073ce74091af7636e98660412
   - enabled: 1
+    path: Assets/Scenes/DeckScene.unity
+    guid: 0b4da4f02bd2e4adaabbb851a0834220
+  - enabled: 1
+    path: Assets/Scenes/ChatScene.unity
+    guid: 14d9d272d6bac40cd9cd30ccce9f0e43
+  - enabled: 1
+    path: Assets/Scenes/ChatScene2.unity
+    guid: 8fb933b199a704a39b18cee06e17682f
+  - enabled: 1
     path: Assets/Scenes/OnboardingScene.unity
     guid: 994afa1badda848049083ddec58dc1c7
   - enabled: 1
@@ -17,7 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GlassFOScene.unity
     guid: 821a33d5d2a3342bf89fff9362084252
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BeachScene.unity
     guid: 0ed44deacdd0e48dbac02acc317ef5ff
+  - enabled: 1
+    path: Assets/Scenes/ChatScene3.unity
+    guid: f766fc9d137a44530954c93f74961552
   m_configObjects: {}

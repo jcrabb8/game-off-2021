@@ -26,20 +26,25 @@ public class WinScenario : MonoBehaviour
     public Image img3;
     public bool isImg4On;
     public Image img4;   
+    public Text onboardingText;
+    public bool isTextOn;
+
 
     // Start is called before the first frame update
     void Start()
     {
         CraftButton.SetActive(false);
         Debug.Log(Slot1.transform.childCount);
-        img1.enabled = false;
-        isImg1On = false;
+        img1.enabled = true;
+        isImg1On = true;
         img2.enabled = false;
         isImg2On = false;
         img3.enabled = false;
         isImg3On = false;
         img4.enabled = false;
         isImg4On = false;
+        onboardingText.enabled = true;
+        isTextOn = true;
 
     }
 
@@ -55,11 +60,28 @@ public class WinScenario : MonoBehaviour
             Slot8.transform.childCount);
 
         
-        if (Slot5.transform.childCount == 1 && isImg1On == false){
+        if (Slot5.transform.childCount + Slot6.transform.childCount + 
+        Slot7.transform.childCount + Slot8.transform.childCount > 0 && isImg2On == false){
             Debug.Log("hi");
-            img1.enabled = true;
-            isImg1On = true;
+            img2.enabled = true;
+            isImg2On = true;
+            onboardingText.enabled = false;
+            isTextOn = false;
+
         }
+        else if (Slot5.transform.childCount + Slot6.transform.childCount + 
+        Slot7.transform.childCount + Slot8.transform.childCount > 1 && isImg3On == false){
+            Debug.Log("hi");
+            img3.enabled = true;
+            isImg3On = true;          
+        }
+        else if (Slot5.transform.childCount + Slot6.transform.childCount + 
+        Slot7.transform.childCount + Slot8.transform.childCount > 2 && isImg4On == false){
+            Debug.Log("hi");
+            img4.enabled = true;
+            isImg4On = true;          
+        }
+        /*
         else if (Slot6.transform.childCount == 1 && isImg2On == false){
             Debug.Log("yo");
             img2.enabled = true;
@@ -74,7 +96,7 @@ public class WinScenario : MonoBehaviour
             Debug.Log("ah");
             img4.enabled = true;
             isImg4On = true;
-        }
+        }*/
         else if (Slot1.transform.childCount + 
             Slot2.transform.childCount + 
             Slot3.transform.childCount + 
